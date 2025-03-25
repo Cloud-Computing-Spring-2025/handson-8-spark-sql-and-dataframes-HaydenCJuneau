@@ -1,0 +1,4 @@
+SentimentLabel,avg_likes,avg_retweets
+Negative,85.73,22.57
+Neutral,81.7,31.16
+Positive,73.08,21.52
