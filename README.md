@@ -309,17 +309,27 @@ A leaderboard of verified users based on audience engagement.
 | Top Verified Users by Reach | 1     |
 | **Total**                   | **1** |
 
----
 
-## 📬 Submission Checklist
+# Report
 
-- [ ] PySpark scripts in the `src/` directory  
-- [ ] Output files in the `outputs/` directory  
-- [ ] Datasets in the `input/` directory  
-- [ ] Completed `README.md`  
-- [ ] Commit everything to GitHub Classroom  
-- [ ] Submit your GitHub repo link on canvas
+## Task 1: Hashtag Trends
+In this task, we perform a split, explode grouping and sorting.
+We want to split the hashtag string into an array of values. We do this so we can create new rows based on them.
+We then group them and analyze how often they are used.
+In our output, we can see that "#design" is the top used hashtag at 26 uses.
 
----
+## Task 2: Engagement by age
+In this task we perform a join, grouping, averaging and ordering.
+We want to join posts to their users so we can query data about their post history.
+We then use averaging functions over the joined table to find statistics about each age group.
+In our output, we can see that Teens top the engagement statistics.
 
-Now go uncover the trends behind the tweets 📊🐤✨
+## Task 3: Sentiment vs Engagement
+In this task we perform classification through when clauses. We use these labels to group and calcuate average engagement with each sentiment.
+In our output, we can see that negative posts get the most attention through likes.
+
+## Task 4: Top Verified Users
+In this task, we perform a filter, join, and a sum.
+We filter for users who are verified. We join the posts table to users so we can calculate statistics about posts.
+We find the users with the most overall likes and retweets.
+In our output we find that @calm_mind has the most likes over all their posts.
